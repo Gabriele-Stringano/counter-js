@@ -4,9 +4,15 @@
     box-sizing: content-box;
   }
 
+  body{
+    background-image: url('../images/phone-body-page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
 .container{
     height: 100vh;
-    background-image: linear-gradient(45deg, white, gray);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,10 +32,17 @@
 .btn{
     font-size: 2rem;
     color: #FFFFFF;
-    background-color: gray;
+    background-color: #00183a;
     border: none;
     border-radius: 50px;
     padding: 10px 40px;
-    margin: 0 10px;
+    margin: 10px 10px;
     cursor: pointer;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 900px) {
+  body{
+    background-image: url('../images/body-page.png');
+  }
 }
