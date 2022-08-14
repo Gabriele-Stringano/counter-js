@@ -106,7 +106,7 @@ List of resources I used:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/JsScreenshot.png
 [Html.js]: https://img.shields.io/static/v1?message=HTML5&logo=HTML5&labelColor=5c5c5c&color=c31111&logoColor=white&label=%20&style=FOR-THE-BADGE
 [Html-url]: https://www.html.it/
 [Css.js]: https://img.shields.io/static/v1?message=CSS3&logo=css3&labelColor=5c5c5c&color=1111c3&logoColor=white&label=%20&style=FOR-THE-BADGE
