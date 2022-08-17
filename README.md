@@ -22,7 +22,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#how-it-work">How it Work</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -54,8 +54,15 @@ As a Start2impact student, I developed this application to put my newly acquired
 
 </ol>
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- How it Work + ScreenShot -->
+
+## How it Work
+
+- In order to increment/decrement or reset the counter, 4 eventListener were assigned to the buttons (line 36 to line 42)</br>
+Description:
+<strong>Mousedown</strong> which calls the <strong>plus</strong> function (lines 14 to 18), the function increments the counter by 1 and then prints the updated counter on the screen. if the button is held down (desktop only feature, not phones) for more than half a second you will go to the <strong>countplus</strong> function, called by a <strong>setInterval</strong>, which increments each unit every half second. When you stop pressing on the button (<strong>mouseup</strong> event, line 37) the <strong>stop</strong> function (lines 26 to 28) will be called, which terminates the setInterval.</br>
+The same happens for the decrement button.</br>
+The <strong>countReset</strong> function (line 30 to 33, triggered by the <strong>click</strong> event on the reset button (line 42) goes to set the counter to zero and sends the updated counter to the screen.
 
 [![product-screenshot]] <!-- Immmagine e link da rivedere -->
 
