@@ -64,7 +64,13 @@ Description:
 The same happens for the decrement button.</br>
 The <strong>countReset</strong> function (line 30 to 33, triggered by the <strong>click</strong> event on the reset button (line 42) goes to set the counter to zero and sends the updated counter to the screen.
 
-[![product-screenshot]]
+[![product-screenshot1]]
+
+### New version
+
+Buttons and counter are now initialized on js. A function called buttonMaker allows you to create custom buttons and pass them to the div (class=buttons) in the html.
+
+[![product-screenshot2]]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -116,7 +122,8 @@ List of resources I used:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[product-screenshot]: images/JsScreenshot.png
+[product-screenshot1]: images/JsScreenshot1.png
+[product-screenshot2]: images/JsScreenshot2.png
 [Html.js]: https://img.shields.io/static/v1?message=HTML5&logo=HTML5&labelColor=5c5c5c&color=c31111&logoColor=white&label=%20&style=FOR-THE-BADGE
 [Html-url]: https://www.html.it/
 [Css.js]: https://img.shields.io/static/v1?message=CSS3&logo=css3&labelColor=5c5c5c&color=1111c3&logoColor=white&label=%20&style=FOR-THE-BADGE
