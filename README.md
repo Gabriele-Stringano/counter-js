@@ -56,7 +56,7 @@ As a Start2impact student, I developed this application to put my newly acquired
 
 <!-- How it Work + ScreenShot -->
 
-## How it Work
+## How it Works
 
 - In order to increment/decrement or reset the counter, 4 eventListener were assigned to the buttons (line 36 to line 40)</br>
 Description:
